@@ -16,7 +16,6 @@ public class LoginController {
 	@RequestMapping("/login.do")
 	public String login(){
 		System.out.println("login.do controller");
-		
 		return "index";
 	}
 	@RequestMapping("/test.do")
